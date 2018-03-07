@@ -154,23 +154,3 @@ Note:
 
 <i class="fab fa-github"></i> ohthehugemanatee
 
-Note:
-* Nether: serverless configurations that work out of the box for game developers. Think leaderboards, "players near me", that kind of stuff. Running the cheapest way possible, with serverless functions. (Everyone here know what serverless functions are? Amazon Lamda?)
-  * https://github.com/MicrosoftDX/nether
-* Babylon.js : a complete WebGL toolkit in javascript. 
-  * https://github.com/BabylonJS/Babylon.js
-* Vorlon.js : multi-client JS introspection and debugging, in the browser.
-  * https://vorlonjs.com
-* Clearly Defined: a framework for managing all the open source projects you depend on, including patches, vulnerabilities, etc.
-* Nuclio: OSS serverless platform. It's the fastest one out there, even faster than bare metal. Portable across IoT devices, laptops, servers...
-  * https://github.com/nuclio/nuclio
-* React Native for Windows - build your application in ReactJS, and compile for windows/xbox
-  * https://github.com/Microsoft/react-native-windows
-* NodeRT - use Windows native functionalities from node.js
-  * https://github.com/NodeRT/NodeRT
-* Project Fortis - collect social media conversations and postings from the public web, analyze with NLP and build dashboards about it. Used to monitor humanitarian, health, and climate crises in real time
-  * https://github.com/CatalystCode/project-fortis
-* 3dToolkit: toolkit for building 3D and VR applications that run on the cloud and stream video to low powered/low capability devices.
-  * https://github.com/CatalystCode/3dtoolkit
-
-CTA: As part of our strategic partnership with UnternehmerTUM in H2 we are supporting the lecture series Think.Make.Start which runs from March 14-27. The 50 students participating will have access to an Azure grant during that time, which we definitely want them to leverage. If they have any question regarding our technology stack or need engineering support or simply want to run an idea by us, the meetup is the perfect place to do this. 
