@@ -97,8 +97,7 @@ ini_set('display_errors', 1); ?>
             <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
             <section data-markdown="<?php echo $_GET['p'] ?>.md"
                      data-separator="^\n\n\n"
-                     data-vertical="^\n\n"
-                     data-notes="^  [A-Z]{2,}"></section>
+                     data-separator-vertical="^\n\n"></section>
 
         </div>
     </div>
