@@ -14,8 +14,7 @@ ini_set('display_errors', 1); ?>
     <link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
 
     <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <style type="text/css">
         .reveal i[class*=fa] {
             font-family: 'FontAwesome';
