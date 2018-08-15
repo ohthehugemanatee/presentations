@@ -14,7 +14,8 @@ ini_set('display_errors', 1); ?>
     <link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
 
     <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- FontAwesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
     <style type="text/css">
         .reveal i[class*=fa] {
             font-family: 'FontAwesome';
@@ -93,14 +94,14 @@ ini_set('display_errors', 1); ?>
 <?php else: ?>
     <div class="reveal">
 
-        <div class="slides">
-            <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
-            <section data-markdown="<?php echo $_GET['p'] ?>.md"
+      <div class="slides">
+        <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+        <section data-markdown="<?php echo $_GET['p'] ?>.md"
                      data-separator="^\n\n\n"
                      data-separator-vertical="^\n\n"></section>
 
         </div>
-    </div>
+      </div>
 <?php endif; ?>
 
 
@@ -143,6 +144,52 @@ ini_set('display_errors', 1); ?>
 
 </script>
 
+<!-- Header/Footer 
+@see https://stackoverflow.com/questions/34706859/set-header-and-footer-reveal-js-presentation 
+-->
+<style type="text/css">
+    /* 1. Style header/footer <div> so they are positioned as desired. */
+    #header-left {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    #header-right {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+    #footer-left {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        font-size: 50%;
+    }
+</style>
+
+<!-- 2. Create hidden header/footer <div> -->
+<div id="hidden" style="display:none;">
+    <div id="header">
+        <div id="header-left"></div>
+        <div id="header-right"></div>
+        <div id="footer-left">Campbell Vertesi
+          <br /><i class="fab fa-mastodon"></i> @ohthehugemanatee@fosstodon.org | <i class="fab fa-twitter"></i> @campbellvertesi | <i class="far fa-envelope"></i> campbell.vertesi@microsoft.com</div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript">
+    // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+    var header = $('#header').html();
+    if ( window.location.search.match( /print-pdf/gi ) ) {
+        Reveal.addEventListener( 'ready', function( event ) {
+            $('.slide-background').append(header);
+        });
+    }
+    else {
+        $('div.reveal').append(header);
+   }
+</script>
 </body>
 </html>
 
