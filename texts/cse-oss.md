@@ -173,7 +173,7 @@ http://www.vorlonjs.com/#demo
 Azure/ibex-dashboard: Custom Analytics Dashboard for Microsoft Bot Framework and other applications as well
 https://github.com/Azure/ibex-dashboard
 
-project-fortis/background.md at master · CatalystCode/project-fortis
+project-fortis/ Collects social media conversations and postings from the public web and darknet data sources, does sentiment analysis, and presents in a dashboard.
 https://github.com/CatalystCode/project-fortis/blob/master/project-fortis-pipeline/docs/background.md
 
 Microsoft/Universal-Language-Intelligence-Service: A wrapper for the microsoft luis cognitive that provides universal language support (after training) using the translate cognitive service
@@ -182,7 +182,7 @@ https://github.com/Microsoft/Universal-Language-Intelligence-Service
 Microsoft/VoTT: Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos.
 https://github.com/Microsoft/VoTT
 
-ritazh/EchoML: 🔉 A web app to play, visualize, and annotate your audio files for machine learning
+ritazh/EchoML: A web app to play, visualize, and annotate your audio files for machine learning
 https://github.com/ritazh/echoml
 
 MicrosoftDX/nether: Building blocks for gaming on Azure
