@@ -309,8 +309,9 @@ https://aka.ms/cse-oss-projects
 How great was this session?
 <br> https://rating-url-here.com
 
-Contact me!
+Slides: https://aka.ms/drupaleurope-why-I-joined-ms
 
+Contact me!
 <br /><i class="fab fa-twitter"></i> @campbellvertesi
 <br /><i class="fab fa-mastodon"></i> @ohthehugemanatee@fosstodon.org
 <br /><i class="far fa-envelope"></i> campbell.vertesi@microsoft.com
