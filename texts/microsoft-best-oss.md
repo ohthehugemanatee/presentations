@@ -114,7 +114,7 @@ Notes:
 
 ## Partner Catalyst Team (PCT)
 
-* Video: Josh's interview with Jam
+<video data-autoplay src="media/josh-pct.mp4" type="video/mp4" ></video>
 
 Notes:
 This is kind of amazing
