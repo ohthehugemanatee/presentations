@@ -97,6 +97,7 @@ But I knew - I _knew_ that this was just another round of Embrace, Extend, Extin
 Notes:
 * "What are you DOING here"?
 * He gave me the back-story. The birth, the origin, and the reason Microsoft HAS to be in open source
+* In 2007, Josh visited major Silicon valley conferences to report on Microsoft's presence in that ecosystem.
 
 
 ## The birth of OSS at Microsoft
@@ -106,10 +107,9 @@ Notes:
 The bad news is, **they aren’t even making jokes about Microsoft anymore**."
 
 Notes:
-* In 2007, Josh visited major Silicon valley conferences to report on Microsoft's presence in that ecosystem.
-* The report he delivered to CEO Steve Ballmer said this.
 * Tech startups were all being built in Open Source. If they wanted to survive, they had to stop the bile.
 * It started with being less aggressive against open source, but gradually it grew.
+* Fast forward a few years, and josh got to form the Partner Catalyst Team, or PCT. I'll let him describe it in his own words.
 
 
 ## Partner Catalyst Team (PCT)
@@ -163,16 +163,15 @@ Notes:
 
 Notes:
 Hired:
-* Wim Coekaerts from Oracle
-* Jeff McAffer from Eclipse
-* Jim Hugunin from NumPy
-* K.Y. Srinivasan, top linux contributor
-* Brendan Burns from k8s
-* Gabe Monroy from Deis
-* Anders Hejlsberg creator of C# and turbopascal
-* Erich Gamma from Eclipse
 * Ross Gardler from Apache
+* Wim Coekaerts from Oracle
+* Gabe Monroy from Deis
+* Brendan Burns from k8s
+* Jeff McAffer, Erich Gamma from Eclipse
+* Anders Hejlsberg creator of C# and turbopascal
+* Jim Hugunin from NumPy
 * Maggie Pint from moment.js
+* K.Y. Srinivasan, top linux contributor
 
 
 ## And numbers speak loudest
@@ -280,17 +279,6 @@ Notes:
 * Many many many many many great OSS projects and contributions
 
 https://aka.ms/cse-oss-projects
-
-
-## Re-orged!
-
-* removed "sharing" from mission statement
-* "we do not do evangelism"
-
-
-"Contribution is just a part of being a good engineer."
-![mind blown](img/mind-blown.gif)<!-- .element style="margin-bottom:0px;"-->
-*(credit: giphy)*<!-- .element style="page-break-inside: avoid; display: block; font-size: 50%;" -->
 
 
 "I am proud to be an Open Source developer at Microsoft."
