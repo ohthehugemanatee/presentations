@@ -242,8 +242,10 @@ Notes:
 * If it hits at our priorities or objectives, JUST FREAKIN DO IT ALREADY
 
 Notes:
-* Processes are just tools. They're important, they're helpful - but it's people and human connections that get things done.
+* Processes are just tools. They're important, they're helpful - but it's people and human connections that find projects, build them, and make them great
 * If you think of a way to hit at our priorities or objectives, Just Do It. You have permission.
+* the process won't do your job for you. you have to be proactive and USE the process, and sometimes bend it, to get great things accomplished
+* as a company we continue to refine the process, and that's great. Stay focused on the objectives.
 * It is your responsibility to find great opportunities and jump on them!
   * We've provided some great tools to help you find those opportunities:
     * project triage meeting
