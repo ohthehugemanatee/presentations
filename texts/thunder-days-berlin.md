@@ -1,6 +1,5 @@
-## Why this Open Source warrior joined
 # <span style="color: #00ccff;"><i class="fab fa-microsoft"></i> Microsoft </span>
-### (And what it's like working there)
+## A new Open Source leader
 
 Campbell Vertesi
 
@@ -14,6 +13,9 @@ Campbell Vertesi
 <br />ohthehugemanatee.org
 <br />campbell.vertesi.com
 
+Notes:
+Emphasize OSS credentials
+
 
 ## What's this about?
 
@@ -23,7 +25,7 @@ Campbell Vertesi
 
 Notes: 
 This talk is divided into three parts.
-- Why did I join? I want to walk you through the thought process that made me think this was a good idea.
+- Why did I join? I want to walk you through the strategic analysis of Microsoft's position
 - What it's like. My impressions now that I've been there for 9 months. Did my predictions bear out?
 - AMA. Open floor, happy to answer any questions, challenges, or accusations you have.
 
@@ -43,13 +45,13 @@ Notes:
 This same information is presented in some more detail on my blog post at the time, you can see the short link here.
 
 
-## I grew up when Microsoft was the evil empire
+## I came up when Microsoft was anti-OSS
 
 * Halloween documents! Anyone remember those?
 * Spreading FUD - Fear, Uncertainty, Doubt
 * Embrace, Extend, Extinguish
 * SCO lawsuits
-* We're a cancer!
+* Open Source is a cancer!
 
 Notes:
 Halloween docs
