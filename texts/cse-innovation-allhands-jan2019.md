@@ -197,11 +197,11 @@ Recurring Brownbag<br/>
 </div>
 
 <div class="col">
-Talking AI Podcas<br/>
-Machine Learning @MSF<br/>
-CSE-maintained demo stac<br/>
+Talking AI Podcast<br/>
+Machine Learning @MSFT<br/>
+CSE-maintained demo stack<br/>
 Architecture Review<br/>
-Course Driven Learnin<br/>
+Course Driven Learning<br/>
 Experience Library<br/>
 </div>
 
