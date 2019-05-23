@@ -134,4 +134,4 @@ Notes:
 
 Slides:
 
-https://github.com/ohthehugemanatee/presentations
+<i class="fab fa-github"></i> github.com/ohthehugemanatee/presentations
