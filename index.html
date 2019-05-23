@@ -148,15 +148,18 @@ for (var i = 0; i < elements.length; i++) {
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script type="text/javascript">
-      // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
-      var header = $('#header').html();
-      if ( window.location.search.match( /print-pdf/gi ) ) {
-        Reveal.addEventListener( 'ready', function( event ) {
-          $('.slide-background').append(header);
+        var hf = getQueryString('hf') ? getQueryString('hf') : 'default';
+      if (isValidURI(hf) === false) {
+        $.get("includes/" + hf + ".html", function(data) {
+          if ( window.location.search.match( /print-pdf/gi ) ) {
+            Reveal.addEventListener( 'ready', function( event ) {
+              $('.slide-background').append(data);
+            });
+          }
+          else {
+            $('div.reveal').append(data);
+          }
         });
-      }
-      else {
-        $('div.reveal').append(header);
       }
     </script>
 </body>
