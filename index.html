@@ -148,19 +148,23 @@ for (var i = 0; i < elements.length; i++) {
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script type="text/javascript">
-        var hf = getQueryString('hf') ? getQueryString('hf') : 'default';
+      // Load header/footer include specified by 'hf' query parameter.
+      var hf = getQueryString('hf') ? getQueryString('hf') : 'default';
       if (isValidURI(hf) === false) {
-        $.get("includes/" + hf + ".html", function(data) {
-          if ( window.location.search.match( /print-pdf/gi ) ) {
-            Reveal.addEventListener( 'ready', function( event ) {
-              $('.slide-background').append(data);
-            });
-          }
-          else {
-            $('div.reveal').append(data);
-          }
-        });
+        $('head').append('<link rel="stylesheet" href="includes/' + hf + '.css">');
       }
+
+
+      $.get("includes/" + hf + ".html", function(data) {
+        if ( window.location.search.match( /print-pdf/gi ) ) {
+          Reveal.addEventListener( 'ready', function( event ) {
+            $('.slide-background').append(data);
+          });
+        }
+        else {
+          $('div.reveal').append(data);
+        }
+      });
     </script>
 </body>
 </html>
