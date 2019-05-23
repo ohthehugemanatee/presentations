@@ -70,8 +70,8 @@ ini_set('display_errors', 1); ?>
                 continue;
             }
 
-            $href = preg_replace('@\.md$@', '', trim(str_replace($start, '', $item), '/'));
-            $sanitized = dirname($href) . ': ' . basename($href, '.md');
+            $href =  trim(str_replace($start, '', $item), '/');
+            $sanitized = dirname($href) . ': ' . basename($href);
             $query = http_build_query(['p' => 'texts/' . $href]);
             printf(
                 '<li><a href="?%s">%s</a></li>',
@@ -87,7 +87,7 @@ ini_set('display_errors', 1); ?>
 <body>
 
 
-<?php if (!isset($_GET['p']) || !$_GET['p'] || !file_exists($_GET['p'] . '.md')): ?>
+<?php if (!isset($_GET['p']) || !$_GET['p'] || !file_exists($_GET['p'])): ?>
     <ul>
         <?php buildTree(__DIR__ . '/texts') ?>
     </ul>
@@ -96,7 +96,7 @@ ini_set('display_errors', 1); ?>
 
       <div class="slides">
         <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
-        <section data-markdown="<?php echo $_GET['p'] ?>.md"
+        <section data-markdown="<?php echo $_GET['p'] ?>"
                      data-separator="^\n\n\n"
                      data-separator-vertical="^\n\n"></section>
 
