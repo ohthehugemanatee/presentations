@@ -67,9 +67,19 @@ var getQueryString = function ( field, url ) {
   var string = reg.exec(href);
   return string ? string[1] : null;
 };
+// Function to validate if a string is a URI.
+function isValidURI(str) {
+   var a  = document.createElement('a');
+   a.href = str;
+   return (a.host && a.host != window.location.host);
+}
 // Set data-markdown attribute on all slides.
 var elements = document.getElementsByClassName('presentation');
 for (var i = 0; i < elements.length; i++) {
+    // Ignore remote URIs.
+    if (getQueryString('p').isValidURI === true) {
+      continue;
+    }
     elements[i].setAttribute("data-markdown", getQueryString('p'));
 }
     </script>
