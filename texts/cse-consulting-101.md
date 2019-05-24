@@ -69,13 +69,17 @@ Notes:
 ### We are consultants
 ## Key skills
 
-* Analysis
+* Business analysis
 * Architecture
 * Clear communication and high documentation standards
-* Time estimation
+* Time estimation and control
 * Professionalism
 
 Notes:
+* Business analysis and architecture are obvious
+* Communication and documentation - I'm using the word "standards" here very intentionally. Consulting requires tremendous adaptability.
+  * Every project IS a snowflake and has to be treated that way - but the trick is to find the parts that can be template-able.
+  * Eg every web app needs an information architecture chart. 
 * One of the most high value things you can do as a consultant is simply to adopt a highly professional attitude. 
 * I want to call this out for CSE with a short video.
 
