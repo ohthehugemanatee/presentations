@@ -22,7 +22,7 @@ Notes:
 * Understand the *real* organizational objectives
 * Design a solution, help the customer sell it internally.
 * Implement effectively and efficiently
-* Leave the customer with a nice package they can sell internally.
+* Leave it as a tidy package "with a bow"
 
 
 ### We are consultants
@@ -58,7 +58,7 @@ Notes:
 
 
 ### We are consultants
-## Leave the customer with a nice package to sell
+## Leave it as a tidy package "with a bow"
 
 Notes:
 * Never forget: your customer has stakeholders, too.
