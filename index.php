@@ -10,6 +10,7 @@ ini_set('display_errors', 1); ?>
     <title>Campbell Vertesi</title>
 
     <base href="http://<?php echo $_SERVER['HTTP_HOST'] ?><?php echo $_SERVER['REQUEST_URI'] ?>">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
     <?php
 
