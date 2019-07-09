@@ -1,22 +1,20 @@
 ## APS EMEA FY20 Strategy
 ### June 19-21 2019
-
-<link type="text/css" href="includes/slideshow.css" rel="stylesheet" />
-<script type="text/javascript" src="includes/slideshow.js"></script>
-<div id="slideshow">
-  <div>
+<style>.slideshow--slide { height: 6em; }</style>
+<div style="display:flex; flex-direction: row; justify-content: center; flex-wrap: wrap; height: 9em; image-orientation: from-image;">
+  <div class="slideshow--slide">
   ![Whiteboard 1](img/aps-whiteboard-1.jpg)<!-- .element style="border:none; margin: 0; background:none; box-shadow:none" -->
   </div>
-  <div>
+  <div class="slideshow--slide">
   ![Whiteboard 2](img/aps-whiteboard-2.jpg)<!-- .element style="border:none; margin: 0;background:none; box-shadow:none" -->
   </div>
-  <div>
+  <div class="slideshow--slide">
   ![Whiteboard 3](img/aps-whiteboard-3.jpg)<!-- .element style="border:none;margin: 0; background:none; box-shadow:none" -->
   </div>
-  <div>
+  <div class="slideshow--slide">
   ![Whiteboard 4](img/aps-whiteboard-4.jpg)<!-- .element style="border:none;margin: 0; background:none; box-shadow:none" -->
   </div>
-  <div>
+  <div class="slideshow--slide">
   ![Whiteboard 5](img/aps-whiteboard-5.jpg)<!-- .element style="border:none;margin: 0; background:none; box-shadow:none" -->
   </div>
 </div>
