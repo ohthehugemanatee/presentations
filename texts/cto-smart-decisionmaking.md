@@ -139,7 +139,7 @@ Notes:
 #### The pitfalls
 ## Being careful == pile of hacks
 
-<video data-autoplay src="media/rube-goldberg.mp4" type="video/mp4" ></video>
+<video loop data-autoplay src="media/rube-goldberg.mp4" type="video/mp4" ></video>
 *(Credit: Giphy)*<!-- .element style="page-break-inside: avoid; display: block; font-size: 50%;" -->
 
 Notes:
@@ -320,7 +320,6 @@ Notes:
 ## Problem statements
 
 * "Maintaining and validating security procedures across 140 separately maintained applications and environments is slow and error-prone. This exposes the bank to difficult-to-detect security risks."
-
 
 
 #### The Goal
@@ -602,5 +601,5 @@ Contact me!
 <br /><i class="fab fa-mastodon"></i> @ohthehugemanatee@fosstodon.org
 <br /><i class="far fa-envelope"></i> campbell.vertesi@microsoft.com
 
-Slides: https://aka.ms/
+Slides: https://aka.ms/cvertesi-cto-decisionmaking
 
