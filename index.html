@@ -1,17 +1,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+        
+        
     <title>Campbell Vertesi</title>
 
-    <link rel="stylesheet" href="reveal.js/css/reveal.css">
     <link rel="stylesheet" href="emoji.css">
-    <link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
+    <!-- 
+        <link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
 
     <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+    -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <style type="text/css">
 
@@ -77,43 +85,70 @@ for (var i = 0; i < elements.length; i++) {
     elements[i].setAttribute("data-markdown", getQueryString('p'));
 }
     </script>
-
+<!--
 <script src="reveal.js/lib/js/head.min.js"></script>
-<script src="reveal.js/js/reveal.js"></script>
+<script src="reveal.js/js/reveal.js"></script>-->
+
+<script src="reveal.js/dist/reveal.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
 
 <script>
 
-    Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
+// Configure reveal.js with optional multiplex.
+let deps =  [
+{
+    src: 'reveal.js/lib/js/classList.js', condition: function () {
+        return !document.body.classList;
+    }
+},
+{
+    src: 'reveal.js/plugin/markdown/marked.js', condition: function () {
+        return !!document.querySelector('[data-markdown]');
+    }
+},
+{
+    src: 'reveal.js/plugin/markdown/markdown.js', condition: function () {
+        return !!document.querySelector('[data-markdown]');
+    }
+},
+{src: 'reveal.js/plugin/notes/notes.js'}
+]
 
-        // Optional libraries used to extend on reveal.js
-        dependencies: [
-            {
-                src: 'reveal.js/lib/js/classList.js', condition: function () {
-                return !document.body.classList;
-            }
-            },
-            {
-                src: 'reveal.js/plugin/markdown/marked.js', condition: function () {
-                return !!document.querySelector('[data-markdown]');
-            }
-            },
-            {
-                src: 'reveal.js/plugin/markdown/markdown.js', condition: function () {
-                return !!document.querySelector('[data-markdown]');
-            }
-            },
-            {
-                src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function () {
-                    hljs.initHighlightingOnLoad();
-                }
-            },
-            {src: 'reveal.js/plugin/notes/notes.js'}
-        ]
-    });
+// Only include multiplex config if the id and token URL params are defined.
+const multiplexId = getQueryString('id')
+const multiplexToken= getQueryString('token')
+const multiplexUri = 'https://reveal-multiplex.glitch.me/'
+
+let multiplexConfig = {}
+
+if (multiplexId ) {
+    deps.push({ src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true })
+    multiplexConfig = {
+            secret: multiplexToken,
+            id: multiplexId,
+            url: multiplexUri
+        }
+    if (multiplexToken) {
+        deps.push({ src: 'https://reveal-multiplex.glitch.me/master.js', async: true })
+    }
+    else {
+        deps.push({ src: 'https://reveal-multiplex.glitch.me/client.js', async: true })
+    }
+}
+
+// Initialize reveal.js.
+Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    multiplex: multiplexConfig,
+    // Optional libraries used to extend on reveal.js
+    dependencies: deps,
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+});
 
 </script>
     <style type="text/css">
