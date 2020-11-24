@@ -22,7 +22,7 @@ Notes:
 
 
 ## Developer/Business agreement
-(according to XP)
+(according to [XP](htps://extremeprogramming.org/))
 
 Notes:
 * Go ahead and have a look at extremeprogramming.org for more detail here
@@ -30,18 +30,18 @@ Notes:
 
 ### The Developer Bill of Rights
 
-1.  You have the right to know what is needed, with clear declarations of priority.
-2.  You have the right to produce quality work at all times.
-3.  You have the right to ask for and receive help from peers, managers, and customers.
-4.  You have the right to make and update your own estimates.
-5.  You have the right to accept your responsibilities instead of having them assigned to you.
+- You have the right to know what is needed, with clear declarations of priority.
+- You have the right to produce quality work at all times.
+- You have the right to ask for and receive help from peers, managers, and customers.
+- You have the right to make and update your own estimates.
+- You have the right to accept your responsibilities instead of having them assigned to you.
 
 
 ### Customer Bill of Rights
 
-2.  You have the right to get the most possible value out of every programming week.
-3.  You have the right to see progress in a running system, proven to work by passing repeatable tests that you specify.
-6.  You can cancel at any time and be left with a useful working system reflecting investment to date.
+- You have the right to get the most possible value out of every programming week.
+- You have the right to see progress in a running system, proven to work by passing repeatable tests that you specify.
+- You can cancel at any time and be left with a useful working system reflecting investment to date.
 
 Notes:
 * These are important for us to know as a dev team, because these are our promises to the people who pay our salaries.
@@ -50,9 +50,9 @@ Notes:
 
 ### Customer Bill of Rights
 
-1.  You have the right to an overall plan, **to know what can be accomplished when and at what cost.**
-4. You have the right **to change your mind, to substitute functionality, and to change priorities** without paying exorbitant costs.
-5.  You have the right **to be informed of schedule changes, in time to choose** how to reduce the scope to restore the original date. 
+- You have the right to an overall plan, **to know what can be accomplished when and at what cost.**
+- You have the right **to change your mind, to substitute functionality, and to change priorities** without paying exorbitant costs.
+-  You have the right **to be informed of schedule changes, in time to choose** how to reduce the scope to restore the original date. 
 
 Notes:
 * These are the obligations that are connected to estimation.
@@ -257,6 +257,9 @@ We apply abstracted estimations to learn about our speed
 * The estimate is resilient to changing priorities, scope, and development plan
 * The estimate is available as far in advance as possible, given the cone of uncertainty
 
+Notes:
+* Remember, there are a lot of other points in that agreement! In order to fulfill all of our obligations to the customer, it takes more than just project practices like this. It takes TECHNICAL practices.
+* This is where test driven development and SOLID principles, in particular, come into play. But we'll cover that another day!
 
 
 ## Thank you!
