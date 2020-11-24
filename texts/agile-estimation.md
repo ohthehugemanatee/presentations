@@ -38,7 +38,7 @@ Notes:
 
 
 ### Customer Bill of Rights
-
+  <!-- .slide: data-auto-animate -->
 - You have the right to get the most possible value out of every programming week.
 - You have the right to see progress in a running system, proven to work by passing repeatable tests that you specify.
 - You can cancel at any time and be left with a useful working system reflecting investment to date.
@@ -49,7 +49,7 @@ Notes:
 
 
 ### Customer Bill of Rights
-
+  <!-- .slide: data-auto-animate -->
 - You have the right to an overall plan, **to know what can be accomplished when and at what cost.**
 - You have the right **to change your mind, to substitute functionality, and to change priorities** without paying exorbitant costs.
 -  You have the right **to be informed of schedule changes, in time to choose** how to reduce the scope to restore the original date. 
@@ -73,6 +73,7 @@ Notes:
 
 
 ### Hope vs. Management
+<!-- .slide: data-auto-animate -->
 
 > "Loss of hope is a major goal of Agile. We practice Agile in order to destroy hope before that hope can kill the project.
 
@@ -81,13 +82,16 @@ Notes:
   -- Robert "Uncle Bob" Martin
 
 Notes:
-* Uncle Bob is one of the authors of the Agile Manifesto, and I love this quote from him
-* Agile is not about going fast. Here's another great Uncle Bob quote:
+* Uncle Bob is one of the authors of the Agile Manifesto, and I love the way he puts some of these aspects.
+* Key takeaway: Agile is not about going fast. It's about generating data about your speed.
 
+
+### Hope vs. Management
+<!-- .slide: data-auto-animate -->
 
 > Agile is about knowing, as early as possible, just how *screwed* we are. 
 
--- Robert "Uncle Bob" Martin
+  -- Robert "Uncle Bob" Martin
 
 Notes:
 * We want to know this so we can _manage_ the situation.
