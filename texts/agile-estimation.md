@@ -39,13 +39,16 @@ Notes:
 
 ### Customer Bill of Rights
   <!-- .slide: data-auto-animate -->
+- You have the right to an overall plan, **to know what can be accomplished when and at what cost.**
 - You have the right to get the most possible value out of every programming week.
 - You have the right to see progress in a running system, proven to work by passing repeatable tests that you specify.
+- You have the right **to change your mind, to substitute functionality, and to change priorities** without paying exorbitant costs.
+- You have the right **to be informed of schedule changes, in time to choose** how to reduce the scope to restore the original date.
 - You can cancel at any time and be left with a useful working system reflecting investment to date.
 
 Notes:
-* These are important for us to know as a dev team, because these are our promises to the people who pay our salaries.
-* I've re-ordered these from the original. You probably have an  idea of how we meet these particular obligations`
+* These are our promises to the people who pay our salaries. If we want the things on the developer side, this is how we pay for them.
+* I'll shift the focus here to the ones that are affected by time estimation.
 
 
 ### Customer Bill of Rights
@@ -55,7 +58,6 @@ Notes:
 -  You have the right **to be informed of schedule changes, in time to choose** how to reduce the scope to restore the original date. 
 
 Notes:
-* These are the obligations that are connected to estimation.
 * To know what can be accomplished when, and at what cost, in a way that is resilient to changes and substitutions in scope and knowledge, and which gives us maximum notice in advance when something needs to change.
 * That's not easy!
 
