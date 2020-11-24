@@ -251,10 +251,12 @@ Notes:
 
 ## So why are we doing this again?
 
-We apply abstracted estimations to produce data about our speed. This way
-* we know what can be accomplished when and how fast
+We apply abstracted estimations to learn about our speed
+
+* What can be accomplished when and how fast
 * The estimate is resilient to changing priorities, scope, and development plan
 * The estimate is available as far in advance as possible, given the cone of uncertainty
+
 
 
 ## Thank you!
