@@ -6,7 +6,7 @@
 
 		<link rel="stylesheet" href="reveal.js/dist/reset.css">
 		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
-		<link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme">
+        <link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
         <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
@@ -16,7 +16,6 @@
 
     <link rel="stylesheet" href="emoji.css">
     <!-- 
-        <link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
 
     <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
     -->
@@ -93,27 +92,13 @@ for (var i = 0; i < elements.length; i++) {
 <script src="reveal.js/plugin/notes/notes.js"></script>
 <script src="reveal.js/plugin/markdown/markdown.js"></script>
 <script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/search/search.js"></script>
 
 <script>
 
 // Configure reveal.js with optional multiplex.
 let deps =  [
-{
-    src: 'reveal.js/lib/js/classList.js', condition: function () {
-        return !document.body.classList;
-    }
-},
-{
-    src: 'reveal.js/plugin/markdown/marked.js', condition: function () {
-        return !!document.querySelector('[data-markdown]');
-    }
-},
-{
-    src: 'reveal.js/plugin/markdown/markdown.js', condition: function () {
-        return !!document.querySelector('[data-markdown]');
-    }
-},
-{src: 'reveal.js/plugin/notes/notes.js'}
 ]
 
 // Only include multiplex config if the id and token URL params are defined.
@@ -140,6 +125,7 @@ if (multiplexId ) {
 
 // Initialize reveal.js.
 Reveal.initialize({
+    hash: true,
     controls: true,
     progress: true,
     history: true,
@@ -147,7 +133,7 @@ Reveal.initialize({
     multiplex: multiplexConfig,
     // Optional libraries used to extend on reveal.js
     dependencies: deps,
-    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealSearch ]
 });
 
 </script>
