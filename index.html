@@ -105,7 +105,7 @@ let deps =  [
 const multiplexId = getQueryString('id')
 const multiplexToken= getQueryString('token')
 const multiplexUri = 'https://reveal-multiplex.glitch.me/'
-
+let controls = true
 let multiplexConfig = {}
 
 if (multiplexId ) {
@@ -119,6 +119,7 @@ if (multiplexId ) {
         deps.push({ src: 'https://reveal-multiplex.glitch.me/master.js', async: true })
     }
     else {
+        controls = false
         deps.push({ src: 'https://reveal-multiplex.glitch.me/client.js', async: true })
     }
 }
@@ -126,7 +127,7 @@ if (multiplexId ) {
 // Initialize reveal.js.
 Reveal.initialize({
     hash: true,
-    controls: true,
+    controls: controls,
     progress: true,
     history: true,
     center: true,
