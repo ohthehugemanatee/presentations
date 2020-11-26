@@ -1,5 +1,7 @@
-## Agile estimation
-### Nov 25, 2020
+<!--![Microsoft logo](img/microsoft-white.png)<!-- .element style="height: 2.3em; border:none; margin: 0; background:none; box-shadow:none; align:top;" -->
+# Agile estimation
+Nov 25, 2020
+<!-- .slide: style="text-align:left;" data-background-image="img/microsoft-white.png" data-background-position="top left" data-background-size="436px" -->
 
 
 ## Agenda
@@ -64,7 +66,7 @@ Notes:
 
 ### The challenge
 
-![Cone of Uncertainty](img/cone_of_uncertainty.jpg)<!-- .element style="border:none; margin: 0; background:none; box-shadow:none" -->
+![Cone of Uncertainty](img/cone_of_uncertainty.jpg)<!-- .element style="border:none; margin: 0; background:none; box-shadow:none; max-height:19em" -->
 
 Notes:
 * The biggest problem is the Cone of Uncertainty
