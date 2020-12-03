@@ -103,12 +103,12 @@ Notes:
 # Thank you!
 <!-- .slide: data-auto-animate -->
 
-<span style="display: inline-flex; flex-wrap: wrap; max-width:100px;">
-  <i class="fas fa-car-side" data-id="car" style="color:#f25022; flex-basis: 50%; height: 50px;"></i>
-  <i class="fas fa-car-side" data-id="car1" style="color:#00a4ef; flex-basis: 50%; height: 50px;"></i>
-  <i class="fas fa-car-side" data-id="car2" style="color:#7fba00; flex-basis: 50%; height: 50px;"></i>
-  <i class="fas fa-car-side" data-id="car3" style="color:#ffb900; flex-basis: 50%; height: 50px;"></i>
-</span>
+<div style="float:left;">
+<i class="fas fa-car-side" data-id="car" style="color:#f25022;"></i><br />
+<i class="fas fa-car-side" data-id="car1" style="color:#00a4ef;"></i><br />
+<i class="fas fa-car-side" data-id="car2" style="color:#7fba00;"></i><br />
+<i class="fas fa-car-side" data-id="car3" style="color:#ffb900;"></i>
+</div>
 
 Notes:
 
@@ -121,8 +121,8 @@ Notes:
 <!-- .slide: data-auto-animate -->
 
 <span style="display: inline-flex; flex-wrap: wrap; width:100px; height:100px;">
-  <i class="fas fa-car-side" data-id="car" style="color:#f25022;background-color:#f25022; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
-  <i class="fas fa-car-side" data-id="car1" style="color:#00a4ef;background-color:#00a4ef; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
-  <i class="fas fa-car-side" data-id="car2" style="color:#7fba00;background-color:#7fba00; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
-  <i class="fas fa-car-side" data-id="car3" style="color:#ffb900;background-color:#ffb900; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
+  <i class="fas fa-car-side" data-id="car" data-auto-animate-easing="ease-in" data-auto-animate-duration="1.35" style="color:#f25022;background-color:#f25022; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
+  <i class="fas fa-car-side" data-id="car2" data-auto-animate-easing="ease-in" data-auto-animate-duration="1.3" style="color:#7fba00;background-color:#7fba00; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
+  <i class="fas fa-car-side" data-id="car1" data-auto-animate-easing="ease-in" data-auto-animate-duration="1.4" style="color:#00a4ef;background-color:#00a4ef; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
+  <i class="fas fa-car-side" data-id="car3" data-auto-animate-easing="ease-in" data-auto-animate-duration="1.5" style="color:#ffb900;background-color:#ffb900; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
 </span>
