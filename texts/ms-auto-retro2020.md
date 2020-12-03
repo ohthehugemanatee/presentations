@@ -17,10 +17,17 @@ Notes:
 
 # Ground Rules
 
-* Raise the roof!<!-- .element: class="fragment" -->
-* No recordings, anonymous feedback<!-- .element: class="fragment" -->
-* Be brutally honest<!-- .element: class="fragment" -->
-* RETRO ALL THE THINGS<!-- .element: class="fragment" -->
+Raise the roof!<!-- .element: class="fragment" data-fragment-index="0" -->
+<i class="far fa-hand-paper fragment" data-fragment-index="0"></i>
+
+No recordings, anonymous feedback<!-- .element: class="fragment" data-fragment-index="1" -->
+<i class="fas fa-microphone-slash"  data-fragment-index="1"></i>
+
+Be brutally honest<!-- .element: class="fragment"  data-fragment-index="2"-->
+<i class="far fa-comment-alt"  data-fragment-index="2"></i>
+
+RETRO ALL THE THINGS<!-- .element: class="fragment" data-fragment-index="3"-->
+<i class="fas fa-globe-europe" data-fragment-index="3"></i>
 
 Notes:
 
@@ -61,7 +68,24 @@ Notes:
 
 
 # Let's go!
+<!-- .slide: data-auto-animate -->
 
+<div style="float:left;">
+<i class="fas fa-car-side" data-id="car" style="color:#f25022;"></i><br />
+<i class="fas fa-car-side" data-id="car1" style="color:#00a4ef;"></i><br />
+<i class="fas fa-car-side" data-id="car2" style="color:#7fba00;"></i><br />
+<i class="fas fa-car-side" data-id="car3" style="color:#ffb900;"></i>
+</div>
+
+
+# Let's go!
+<!-- .slide: data-auto-animate -->
+<div style="float:right;">
+<i class="fas fa-car-side" data-id="car" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.6" style="color:#f25022;"></i><br />
+<i class="fas fa-car-side" data-id="car2" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.1" data-auto-animate-delay="0.2" style="color:#7fba00;"></i><br />
+<i class="fas fa-car-side" data-id="car1" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.8" style="color:#00a4ef;"></i><br />
+<i class="fas fa-car-side" data-id="car3" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.2" style="color:#ffb900;"></i><br />
+</div>
 
 
 # Next Steps
@@ -77,9 +101,28 @@ Notes:
 
 
 # Thank you!
+<!-- .slide: data-auto-animate -->
+
+<span style="display: inline-flex; flex-wrap: wrap; max-width:100px;">
+  <i class="fas fa-car-side" data-id="car" style="color:#f25022; flex-basis: 50%; height: 50px;"></i>
+  <i class="fas fa-car-side" data-id="car1" style="color:#00a4ef; flex-basis: 50%; height: 50px;"></i>
+  <i class="fas fa-car-side" data-id="car2" style="color:#7fba00; flex-basis: 50%; height: 50px;"></i>
+  <i class="fas fa-car-side" data-id="car3" style="color:#ffb900; flex-basis: 50%; height: 50px;"></i>
+</span>
 
 Notes:
 
 * Thanks to Beat and Judy for their trust and good ears in the process
 * Thank you to all of YOU! This is incredibly valuable feedback.
 * Next year we will do even better!
+
+
+# Thank you!
+<!-- .slide: data-auto-animate -->
+
+<span style="display: inline-flex; flex-wrap: wrap; width:100px; height:100px;">
+  <i class="fas fa-car-side" data-id="car" style="color:#f25022;background-color:#f25022; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
+  <i class="fas fa-car-side" data-id="car1" style="color:#00a4ef;background-color:#00a4ef; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
+  <i class="fas fa-car-side" data-id="car2" style="color:#7fba00;background-color:#7fba00; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
+  <i class="fas fa-car-side" data-id="car3" style="color:#ffb900;background-color:#ffb900; flex-basis: auto; width: 45px; height: 45px; margin: 0 5px 5px 0;"></i>
+</span>
