@@ -28,16 +28,16 @@ Notes:
 # Ground Rules
 
 Raise the roof!<!-- .element: class="fragment" data-fragment-index="0" -->
-<i class="far fa-hand-paper fragment" data-fragment-index="0"></i>
+<i class="far fa-hand-paper fragment" data-fragment-index="0" style="color:#7fba00;"></i>
 
 No recordings, anonymous feedback<!-- .element: class="fragment" data-fragment-index="1" -->
-<i class="fas fa-microphone-slash"  data-fragment-index="1"></i>
+<i class="fas fa-microphone-slash"  data-fragment-index="1" style="color:#00a4ef;"></i>
 
 Be brutally honest<!-- .element: class="fragment"  data-fragment-index="2"-->
-<i class="far fa-comment-alt"  data-fragment-index="2"></i>
+<i class="far fa-comment-alt"  data-fragment-index="2" style="color:#f25022;"></i>
 
 RETRO ALL THE THINGS<!-- .element: class="fragment" data-fragment-index="3"-->
-<i class="fas fa-globe-europe" data-fragment-index="3"></i>
+<i class="fas fa-globe-europe" data-fragment-index="3" style="color:#ffb900;"></i>
 
 Notes:
 
