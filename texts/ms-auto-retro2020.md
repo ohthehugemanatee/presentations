@@ -1,8 +1,18 @@
 <!--![Microsoft logo](img/microsoft-white.png)<!-- .element style="height: 2.3em; border:none; margin: 0; background:none; box-shadow:none; align:top;" -->
 # Automotive Industry Retrospective
+
 EMEA Edition
 
 December 4, 2020
+
+<br />
+<br />
+<div style="float:right;">
+<i class="fas fa-car-side" data-id="car" style="color:#f25022;"></i>
+<i class="fas fa-car-side" data-id="car1" style="color:#00a4ef;"></i>
+<i class="fas fa-car-side" data-id="car2" style="color:#7fba00;"></i>
+<i class="fas fa-car-side" data-id="car3" style="color:#ffb900;"></i>
+</div>
 <!-- .slide: style="text-align:left;" data-background-image="img/microsoft-white.png" data-background-position="top left" data-background-size="436px" -->
 
 
@@ -81,10 +91,10 @@ Notes:
 # Let's go!
 <!-- .slide: data-auto-animate -->
 <div style="float:right;">
-<i class="fas fa-car-side" data-id="car" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.6" style="color:#f25022;"></i><br />
-<i class="fas fa-car-side" data-id="car2" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.1" data-auto-animate-delay="0.2" style="color:#7fba00;"></i><br />
-<i class="fas fa-car-side" data-id="car1" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.8" style="color:#00a4ef;"></i><br />
-<i class="fas fa-car-side" data-id="car3" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.2" style="color:#ffb900;"></i><br />
+<i class="fas fa-car-side" data-id="car" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.6" style="color:#f25022; opacity: 0"></i><br />
+<i class="fas fa-car-side" data-id="car2" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.1" data-auto-animate-delay="0.2" style="color:#7fba00; opacity: 0"></i><br />
+<i class="fas fa-car-side" data-id="car1" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.8" style="color:#00a4ef; opacity: 0;"></i><br />
+<i class="fas fa-car-side" data-id="car3" data-auto-animate-easing="ease-in" data-auto-animate-duration="3.2" style="color:#ffb900; opacity: 0"></i><br />
 </div>
 
 
