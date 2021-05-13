@@ -141,11 +141,12 @@ Notes:
 
 ## Goals
 
-- a list of independent pieces of functionality the business needs, with relative
+- make a list of independent pieces of functionality the business needs, with relative
   difficulty, sorted by customer priority
-- a list of functionality to build in this iteration
-- everyone knows what everyone else is working on, and can help as soon as its needed.
-- a business representative who knows what the devs are working on and can answer questions
+- choose which functionality pieces to build in this iteration
+- make sure everyone knows what everyone else is working on, and can help as soon as its needed.
+- a business representative who knows what the devs are working on can make sure it's valuable
+  to the business, and answer questions
 
 
 ## Minimum meetings
@@ -163,6 +164,7 @@ Notes:
 ## Scrum meetings
 
 | Scrum | Our MVP meetings |
+| --- | --- |
 | ?? | Write down / Update the functionality the business needs, in relative-weighted chunks, with priority |
 | Sprint Planning | Decide what work to do before each iteration |
 | Sprint Demo | Understand/validate the working system after each iteration |
@@ -173,6 +175,7 @@ Notes:
 ## Extreme Programming meetings
 
 | XP | Our MVP meetings |
+| --- | --- |
 | Planning Games | Write down / Update the functionality the business needs, in relative-weighted chunks, with priority |
 | Planning games | Decide what work to do before each iteration |
 | Test/Release | Understand/validate the working system after each iteration |
@@ -181,6 +184,7 @@ Notes:
 ## Kanban meetings
 
 | Kanban | Our MVP meetings |
+| --- | --- |
 | Kickoff Backlog Creation | Write down the functionality the business needs |
 | Daily Backlog Grooming | Update the functionality the business needs |
 | Project Planning | Prioritize functionality |
