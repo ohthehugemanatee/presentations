@@ -198,6 +198,45 @@ Notes:
 # Code practices to keep you sane
 
 
+Notes:
+
+- so far we've only talked abut the project practices that keep you sane,
+  or at least their purpose
+- we said "project management is where business meets tech", well so far that's
+  just the busines side f it. We know how to know what to build, very efficiently
+- Martin Fowler calls this "flaccid scrum" .It's a very efficient way to make a mess
+- Sice everyone involved needs a flexible codebase that is easy to understand and
+  validate... you can't just do that with meetings. You need technical practices, too.
+
+
+
+# Modular code
+
+Notes:
+
+- there are a number of ways to achieve this, but basically you need independent
+  units of code, each with a clear purpose. 
+- Probably cleanest is a dependency injection system, or some other kind of inversion of control
+
+
+# Automated testing
+
+Notes:
+- Unit, integration, end-to-end - they all have their place.
+- The point is to vaildate for now and all future time that this functionality works.
+- in the ideal case, every acceptance criteria in a ticket has a corresponding test.
+- Documents what each piece does.
+
+# Pair programming
+
+
+# Frequent integration
+
+
+# Common style and standards
+
+
+# Refactor!
 
 # making it even lighter-weight
 
