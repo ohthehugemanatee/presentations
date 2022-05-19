@@ -17,8 +17,9 @@ May 19, 2022
 
 ![Cloud OS Share](img/cloud-OS-share.png)<!-- .element style="border:none; margin: 0;background:none; box-shadow:none" -->
 
-- 90% of the public cloud runs on Linux
+- 90% of cloud workloads run on Linux
 - 60% of IaaS Azure core usage is Linux
+
 
 
 ## What are the important Linux distributions for us?
@@ -40,6 +41,7 @@ May 19, 2022
 - Distribution model changes?
 
 
+
 ## ARM64 on MS Cloud
 
 - 20% less expensive than x86
@@ -47,6 +49,8 @@ May 19, 2022
 - GA end of this month
 - Great for highly scalable, OSS, scripted, and cross-compileable codebases
 - Ubuntu, CentOS, Red Hat, Debian, Suse, Flatcar, Windows 11 Pro/Enterprise
+- Limited Geos: West US2, West EU, West Central US, East US
+
 
 
 ## Thank you!
