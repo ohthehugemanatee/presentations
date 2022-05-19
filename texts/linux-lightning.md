@@ -15,7 +15,7 @@ May 19, 2022
 
 ## Why is this important?
 
-![Cloud OS Share](img/cloud-os-share.png)<!-- .element style="border:none; margin: 0;background:none; box-shadow:none" -->
+![Cloud OS Share](img/cloud-OS-share.png)<!-- .element style="border:none; margin: 0;background:none; box-shadow:none" -->
 
 - 90% of the public cloud runs on Linux
 - 60% of IaaS Azure core usage is Linux
@@ -43,9 +43,10 @@ May 19, 2022
 ## ARM64 on MS Cloud
 
 - 20% less expensive than x86
+- Up to 64 cores, up to 208GB RAM
 - GA end of this month
-- Not high RAM, but high core counts
-- Especially useful for microservice environments
+- Great for highly scalable, OSS, scripted, and cross-compileable codebases
+- Ubuntu, CentOS, Red Hat, Debian, Suse, Flatcar, Windows 11 Pro/Enterprise
 
 
 ## Thank you!
