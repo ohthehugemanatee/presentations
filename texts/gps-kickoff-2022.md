@@ -276,7 +276,54 @@ That’s the GPS way
 
 
 ## Thank you!
+  <!-- .slide: data-auto-animate -->
+
+
+## Thank you!
+  <!-- .slide: data-auto-animate -->
+
+Song texts:
+
+- Campbell Vertesi
+- Brian Kelly
+- Katharine Kennedy
+
+
+## Thank you!
+  <!-- .slide: data-auto-animate -->
+
+Song texts:
+
+- Brian Kelly
+- Katharine Kennedy
+- Campbell Vertesi
+
+Performers:
+
+<span style="display:flex">
+<span style="flex:1">
+
+- Jason Jacobs
+- Brian Kelly
+- Katharine Kennedy
+- Casey McGee
+- Feliz Montpellier
+</span>
+
+<span style="flex:1">
+
+- Tereza Nemessanyi
+- Nanditha Ram
+- Ayelet Steinitz
+- Campbell Vertesi
+- Monika Vohra
+</span>
+</span>
+
+<span style="font-size: 0.7em">
 
 Slides:
 
-<i class="fab fa-github"></i> github.com/ohthehugemanatee/presentations
+<i class="fab fa-github"></i> github.com/ohthehugemanatee/presentations/texts/gps-kickoff-2022.md
+</span>
+
