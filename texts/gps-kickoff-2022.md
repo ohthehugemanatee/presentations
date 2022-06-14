@@ -298,25 +298,22 @@ Song texts:
 - Katharine Kennedy
 - Campbell Vertesi
 
-Performers:
+Your Musical LT:
 
 <span style="display:flex">
 <span style="flex:1">
 
-- Jason Jacobs
+- Alvaro Celis
 - Brian Kelly
-- Katharine Kennedy
 - Casey McGee
 - Feliz Montpellier
 </span>
 
 <span style="flex:1">
 
-- Tereza Nemessanyi
 - Nanditha Ram
 - Ayelet Steinitz
 - Campbell Vertesi
-- Monika Vohra
 </span>
 </span>
 
