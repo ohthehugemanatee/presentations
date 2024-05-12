@@ -8,8 +8,19 @@ Notes:
 - Both RH and Azure have strength in the hybrid space
 - lots of great tools to choose from.
 - real risk of "the worst of all worlds"
+- migration to 100% cloud doesn't exist
 - So how do you do it?
 
+
+## Who is this person?
+
+Campbell Vertesi
+
+Partner CTO for Red Hat
+
+Microsoft
+
+(life long open source contributor and fanatic)
 
 
 ## What do you want from hybrid?
@@ -43,6 +54,7 @@ Notes:
 - building your hybrid infrastructure one unit at a time
 - for both: define your MVP and major stages of the journey.
 - Don't wait for completion, these are long-running workstreams. Wait for steady progress.
+- not botticelli's venus!
 
 
 ## Choosing your first workloads
@@ -87,7 +99,7 @@ Notes:
 Notes:
 
 - Not as easy as it sounds
-- All of these should start with "split brain" solutions. bare MVP is that you can handle it on-prem *and* on Azure, with separate processes/tools
+- control plane should start with "split brain" solutions. bare MVP is that you can handle it on-prem *and* on Azure, with separate processes/tools
   - decide your own MVP - some services MUST be unified up front in your business context 
 
 
